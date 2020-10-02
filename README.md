@@ -19,9 +19,9 @@ In this course I will try to cover all of the basics and most important things o
 
 - Data Types, Data Structurs:
     - Primitive Data Types;
-    - Lists;
-    - Dicts;
-    - Tuples;
+    - List;
+    - Dict;
+    - Tuple;
 
 - Functions:
     - Function is First Class Citizen and what does it mean;
@@ -29,7 +29,7 @@ In this course I will try to cover all of the basics and most important things o
     - Arguments;
 
 - Introduce to OOP and Classes:
-    - Methods and Atributes of class;
+    - Methods and Atributes of a class;
     - Working with Classes;
     - Understand for what we use classes;
     - Inheritances;
