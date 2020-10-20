@@ -1,4 +1,5 @@
 import os
+
 print('Witamy na kursie Python!!!')
 print('Prowadze przez: Sebastiana Siarczyńskiego')
 
@@ -14,6 +15,8 @@ x = True
 
 if x:
     print('Cos tam')
+
+#? Przyklad For i While w Pythonie
 
 
 
