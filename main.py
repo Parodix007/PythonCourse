@@ -17,6 +17,31 @@ if x:
     print('Cos tam')
 
 #? Przyklad For i While w Pythonie
+a = 1
+
+
+while a < 5:
+    print('cos tam')
+    a += 1 
+
+for i in range(5):
+    print(i)
+
+
+
+
+#? FizzBuzz
+
+fb = 3
+
+if fb % 3 == 0:
+    print('Fizz')
+elif fb % 5 == 0:
+    print('Buzz')
+elif fb % 5 == 0 and fb % 3 == 0:
+    print('FizzBuzz')
+
+
 
 
 
