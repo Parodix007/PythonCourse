@@ -14,7 +14,7 @@ zmienna = 100
 x = True
 
 if x:
-    print('Cos tam')
+    print('Cos tam') 
 
 #? Przyklad For i While w Pythonie
 a = 1
@@ -22,7 +22,9 @@ a = 1
 
 while a < 5:
     print('cos tam')
-    a += 1 
+    a += 1
+
+
 
 for i in range(5):
     print(i)
@@ -50,11 +52,11 @@ elif fb % 5 == 0 and fb % 3 == 0:
 #TODO: funkcja input() przyjmuje argument opcjonalny ktorym jest zazwyczaj string, jest on wyswietlany jako wiadomosc do uzytkownika ktory bedzie wprowadzal wartosc do programu.
 
 
-input_ = input('Podaj wartosc zmiennej: ')
+#input_ = input('Podaj wartosc zmiennej: ')
 
 #TODO: funkcja print() dziala identycznie lecz przyjmuje drugi argument ktorym jest zmienna ktora bedzie wyswietlana w terminalu.
 
-print("wartosc:",input_)
+#print("wartosc:",input_)
 
 
 #? Data Types
@@ -64,7 +66,7 @@ print("wartosc:",input_)
 
 #TODO: list jest w zasadzie typem Tablicy zmiennym dynamicznie
 
-list_ = [1,2,3,4]
+#list_ = [1,2,3,4]
 # index []
 # len()
 # append
@@ -73,15 +75,15 @@ list_ = [1,2,3,4]
 
 #TODO: jest to typem Tablicy o wartosciach niezmiennych
 
-tuple_ = (1,2,3,4)
+#tuple_ = (1,2,3,4)
 
 #TODO: Jest to struktura danych nazywana takze w czasami tablica asocjacyjna
 
-dict_ = {
-    'raz' : 1,
-    'dwa' : 2,
-    'trzy' : 3
-}
+# dict_ = {
+#     'raz' : 1,
+#     'dwa' : 2,
+#     'trzy' : 3
+# }
 
 # index []
 # get
