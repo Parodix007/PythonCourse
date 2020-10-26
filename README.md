@@ -37,7 +37,7 @@ In this course I will try to cover all of the basics and most important things o
 
 ## Projects
 
-- I would like to go from the scratch with my students throught 2 projects: Hangman Game and Quiz Game.
+- I would like to go from the scratch with my students throught 2 projects: Currency Converter and Quiz Game.
 
 ## Extra Topics
 - As I mentioned before if my group will learn fast the basics and we will end program faster than I expect we can start extra things in Python. For now I predict that extra topics will be more about Functions and Classes.
