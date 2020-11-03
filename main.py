@@ -142,15 +142,86 @@ print(lista2)
 
 #TODO: Jest to struktura danych nazywana takze w czasami tablica asocjacyjna
 
-# dict_ = {
-#     'raz' : 1,
-#     'dwa' : 2,
-#     'trzy' : 3
-# }
+dict_ = {
+    'raz' : 1,
+    'dwa' : 2,
+    'trzy' : 3
+}
 
-# index []
 # get
 # items
+# values 
+# update
+# setdefault
+# index []
+
+dict_.update({4:'cztery'})
+dict_.setdefault(10, [1234])
+dict_['raz'] = 11
+
+#print(dict_)
 
 # for x, y in dict_.items():
 #     print(f'{x} : {y}')
+
+
+# for x in dict_.values():
+#     print(f'{x}')
+
+
+# Wizytowka
+
+info = {}
+
+# for _ in range(5):
+#     klucz = input('Podaj klucz: ')
+#     wartosc = input('Podaj wartosc: ')
+#     info.setdefault(klucz, wartosc)
+#     os.system('clear')
+
+# Zmiana wartosci
+
+os.system('clear')
+
+slownik = {
+    'wartosc1':1,
+    'wartosc2': True,
+    'wartosc3': [1, 2, 3, 4, 5],
+    'wartosc4': 'qwerty',
+    'wartosc5': (True, 1234, 'abc')
+}
+
+# for x, y in slownik.items():
+#     os.system('clear')
+#     print(f'klucz: {x} \nwartosc: {y}')
+#     user = input('Czy zmienic wartosc? TAK/NIE: ')
+
+#     if user.upper() == 'TAK':
+#         new_value = input('Podaj wartosc ')
+#         slownik.update({x: new_value})
+#     elif user.upper() == 'NIE':
+#         pass
+
+# print(slownik)
+
+
+# Czy wartosc istnieje
+os.system('clear')
+
+wartosci = [1,True, 'asdw', [1,2,3,4,5], [1,2,3,4], 10, 'qwerty']
+
+slownik_ = {
+    'klucz1': 33,
+    'klucz2': True,
+    'klucz3': [1,2,3,4,5],
+    'klucz4': 'asdw',
+    'klucz5': (1,2)
+}
+
+for value in wartosci:
+    if value not in slownik_.values():
+        slownik_.setdefault(str(value) ,value)
+    else:
+        pass
+
+print(slownik_)
