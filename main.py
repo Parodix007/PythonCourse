@@ -225,3 +225,90 @@ for value in wartosci:
         pass
 
 print(slownik_)
+
+os.system('clear')
+
+
+
+
+#? Funkcje
+
+def funkcja(x, y='tam'):
+    print(x)
+    print(f'cos {y}')
+
+
+x = funkcja
+
+x(1)
+
+
+def f(x):
+    def f1(y):
+        return print(x + y)
+    return f1
+
+
+x1 = f(10)
+
+x1(3)
+
+#! scope globalny
+liczba = 10
+
+def scope():
+    #! scope funkcyjny
+    global liczba
+    print(liczba)
+
+
+scope()
+print(liczba)
+
+
+os.system('clear')
+#? napisz program ktory policzby sume liczb w liscie ktora zostala podana do funkcji
+
+# def policzsume(x):
+#     suma = 0
+#     for item in x:
+#         if type(item) == int:
+#             suma += item
+#         else:
+#             pass
+#     print(f'suma wynosi: {suma}')
+
+# lista_do_zsumowania = ['sadas',2,3,4]
+# policzsume(lista_do_zsumowania)
+
+
+#? napisz program ktory przyjmie liste liczb i zwroci liste liczb dodatnich
+
+# def liczbyDodatnie(x):
+#     dodanie = []
+#     for item in x:
+#         if item % 2 == 0:
+#             dodanie.append(item)
+#         else:
+#             pass
+#     print(dodanie)
+
+# listaliczby = [1,2,3,4,5,6,7,8]
+# liczbyDodatnie(listaliczby)
+
+#? napisz program ktory przyjmie liste i zwroci tylko te liczby ktore sa w danym zakresie 
+
+# def zakres(x, y):
+#     liczby_w_zakresie = []
+
+#     for item in x:
+#         if item in range(y):
+#             liczby_w_zakresie.append(item)
+#         else:
+#             pass
+
+#     print(f'liczby w podanym zakresie {liczby_w_zakresie}')
+
+# liczby = [1,2,3,4,5,6,7]
+# liczba_zakresu = 5
+# zakres(liczby, liczba_zakresu)
