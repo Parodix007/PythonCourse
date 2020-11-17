@@ -23,7 +23,18 @@
 # 	print(file.read())
 # 	print(f'test1: {file.closed}')
 
-# Cykliczne tablice 
-
+# # Cykliczne tablice 
+tablice = []
 with open('files/cykliczne_tablice.txt', 'r+') as file:
-	print(file.readlines())
+	for item in file.readlines():
+		x = list(item.strip().split(' '))
+		print(x)
+		k = x[1].index(x[0][0])
+		print(k)
+		if k != len(x[1]):
+			pass 
+		else:
+			pass
+
+		
+		
