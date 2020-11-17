@@ -312,3 +312,5 @@ os.system('clear')
 # liczby = [1,2,3,4,5,6,7]
 # liczba_zakresu = 5
 # zakres(liczby, liczba_zakresu)
+
+
