@@ -1,0 +1,12 @@
+{
+	"pytania": {
+		"pytanie1": {
+			"tresc": "COSTAM \nOdpowiedz: A:1 B:2",
+			"poprawna": "B"
+		},
+		"pytanie2": {
+			"tresc": "COSTAM2 \nOdpowiedz: A:3 B:4",
+			"poprawna": "A"
+		}
+	}
+}

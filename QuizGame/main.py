@@ -1,10 +1,12 @@
-import json
+import json, os
 
-def read_file():
-	with open('pytania.txt') as file:
+def czytaj_plik():
+	with open('pytania.json') as file:
 		pytania = json.loads(file.read())
-		print(pytania['pytania']['pytanie1'])
+		
+	return pytania
 
 
+plik = czytaj_plik()
 
-read_file()
+print(type(plik))
